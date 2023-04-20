@@ -1,0 +1,36 @@
+<script type="text/javascript">
+    function demo1() {
+        var a = parseInt(prompt("enter no a :- "));
+        return a;
+    }
+    function demo2() {
+        var b = parseInt(prompt("enter no B :- "));
+        return b;
+    }
+    function demo3() {
+        var c = parseInt(prompt("enter no C :- "));
+        return c;
+    }
+    function demo4(a,b,c) {
+        if(a>b){
+            if(a>c){
+                document.write("A is big");
+            }
+            else{
+                document.write("C is big");
+            }
+        }
+        else{
+            if(b>c){
+                document.write("B is big");
+            }
+            else{
+                document.write("C is big");
+            }
+        }
+    }
+    var p = demo1();
+    var q = demo2();
+    var r = demo3();
+    demo4(p,q,r);
+</script>

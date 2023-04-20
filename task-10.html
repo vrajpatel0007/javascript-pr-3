@@ -1,0 +1,24 @@
+<script type="text/javascript">
+    function demo() {
+        var a = parseInt(prompt("Enaer no A:- "));
+        var b = parseInt(prompt("Enaer no B:- "));
+        var sum = prompt("select choice + , - , * , / :- ");
+
+        switch (sum) {
+            case '+':
+                sum = a + b;
+                break;
+            case '-':
+                sum = a - b;
+                break;
+            case '*':
+                sum = a * b;
+                break;
+            case '/':
+                sum = a / b;
+                break;
+        }
+        document.write("<h1>Ans = " + sum + "</h1>");
+    }
+    demo();
+</script>

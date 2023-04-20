@@ -1,0 +1,33 @@
+<script type="text/javascript">
+    function demo1() {
+        var a = parseInt(prompt("enter no A :- "));
+        return a;
+    }
+    function demo2() {
+        var b = parseInt(prompt("enter no B :- "));
+        return b;
+    }
+    function demo3() {
+        var c = parseInt(prompt("enter no C :- "));
+        return c;
+    }
+    var p = demo1();
+    var q = demo2();
+    var r = demo3();
+
+    function demo4(p, q, r) {
+        var sum = p + q + r;
+        return sum;
+
+    }
+    var sum = demo4(p, q, r);
+    function demo5(sum) {
+        if (sum == 180) {
+            document.write("<h1>triangle is valid</h1>");
+        }
+        else {
+            document.write("<h1>triangle is not valid</h1>");
+        }
+    }
+    demo5(sum);
+</script>
